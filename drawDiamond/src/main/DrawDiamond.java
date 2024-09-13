@@ -48,14 +48,14 @@ public class DrawDiamond {
 			}
 
 			// Adjust the number of whitespaces and diamond characters after each row
-		    // (If we're in the top half of the diamond, before reaching the middle)
+			// (If we're in the top half of the diamond, before reaching the middle)
 			if((numberOfWhitespace != 0) && (!isDirectionSwitched)) {
 				// Decrease whitespace and increase diamond characters for the next row
 				numberOfWhitespace--;
 				numberOfDiamond += 2;
 				
 				// When the number of whitespaces is 0 (reaching the middle of the diamond), 
-		        // switch direction to start decreasing diamond characters and increasing whitespaces
+				// switch direction to start decreasing diamond characters and increasing whitespaces
 				if(numberOfWhitespace < 1) {
 					isDirectionSwitched = !isDirectionSwitched;
 					

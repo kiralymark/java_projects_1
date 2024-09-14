@@ -16,6 +16,13 @@ is determined by `lengthOfSide`.
 @param `emptyCharacter` is the character used to represent empty spaces  
 @param `diamondCharacter` is the character used to represent the body of the diamond  
 @param `lengthOfSide` recommendation: MAX VALUE 180, MIN VALUE 2  
+
+#### Tags:  
+2024,
+september,
+java project,
+Eclipse IDE for Java Developers - 2024-06,
+Java Standard Edition ver. 22
   
 ### Summary:  
 Outer loop (`rowIndex`): Controls the number of rows printed, which is 
@@ -63,6 +70,13 @@ The roof consists of `lengthOfSide` rows, forming a triangle
 The second part of the code: Drawing the base (rectangular shape)
 The base is a rectangle with a width of `(lengthOfSide * 2 - 1)` "diamond characters"
 and a height of `lengthOfSide`  
+
+#### Tags:  
+2024,
+september,
+java project,
+Eclipse IDE for Java Developers - 2024-06,
+Java Standard Edition ver. 22
 
 ### Code Explanation:  
 #### 1 Variables:  
@@ -117,6 +131,13 @@ The triangle is drawn with a height and width defined by the `lengthOfSide` vari
 The triangle is formed by printing whitespace characters followed by "diamond characters".  
  
 The size of the triangle can be adjusted by changing the `lengthOfSide` value.  
+
+#### Tags:  
+2024,
+september,
+java project,
+Eclipse IDE for Java Developers - 2024-06,
+Java Standard Edition ver. 22
 
 ### Code Explanation:  
 #### 1 Variables:  
